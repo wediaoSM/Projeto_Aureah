@@ -1,0 +1,10 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    // Permite abrir arquivos não confiáveis sem pedir confirmação
+    "security.workspace.trust.untrustedFiles": "open",
+    // Desativa o sistema de confiança do workspace
+    "security.workspace.trust.enabled": false,
+    // Permite execução automática de tarefas sem pedir permissão
+    "task.allowAutomaticTasks": true
+}

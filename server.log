@@ -1,0 +1,23 @@
+
+> into-the-shadows@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by an unknown process, using available port 3002 instead.
+   ▲ Next.js 15.5.5
+   - Local:        http://localhost:3002
+   - Network:      http://10.0.12.133:3002
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1412ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.5
+   - Local:        http://localhost:3002
+   - Network:      http://10.0.12.133:3002
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · serverComponentsExternalPackages
+
+ ✓ Starting...
+ ✓ Ready in 5s
+[?25h
