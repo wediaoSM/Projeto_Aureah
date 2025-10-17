@@ -23,7 +23,7 @@ export default function HeroSection() {
   const playButtonRef = useRef(null);
 
   const tracks = [
-    { name: "Revive Again", category: "Animecore.", src: "/audio/Animecore/Revive again.wav", cover: "/logo-revive.jpeg" },
+    { name: "Revive Again", category: "Animecore.", src: "/audio/Animecore/Revive again.mp3", cover: "/logo-revive.jpeg" },
     { name: "Falling Again", category: "Animecore.", src: "/audio/Animecore/Falling again.wav", cover: "/logo-falling.jpeg" }
   ];
 
