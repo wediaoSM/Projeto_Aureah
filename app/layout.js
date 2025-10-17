@@ -16,34 +16,30 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    template: '%s | Into the Shadows',
-    default: 'Into the Shadows - O som da sua marca começa aqui'
+    template: '%s | Aureah Music Studio',
+    default: 'Aureah Music Studio | Trilhas Personalizadas e Biblioteca Musical'
   },
-  description: "Criamos trilhas musicais exclusivas com IA + toque humano para marcas, criadores e empresas. Entrega em 24-48h com qualidade profissional.",
-  keywords: ['trilhas musicais', 'música com IA', 'identidade sonora', 'audio branding', 'música personalizada', 'trilhas corporativas'],
-  authors: [{ name: 'Into the Shadows' }],
-  creator: 'Into the Shadows',
-  publisher: 'Into the Shadows',
+  description: "Trilhas sonoras exclusivas, biblioteca musical para criadores e audio branding profissional. Música para vídeos, marcas e conteúdo digital. IA + toque humano.",
+  keywords: ['trilha sonora', 'música personalizada', 'biblioteca musical', 'audio branding', 'música para vídeo', 'IA música', 'Aureah', 'trilha para YouTube', 'trilha para TikTok', 'música para marcas'],
+  authors: [{ name: 'Aureah Music Studio' }],
+  creator: 'Aureah Music Studio',
+  publisher: 'Aureah Music Studio',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://intotheshadows.com.br'),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
-    title: 'Into the Shadows - O som da sua marca começa aqui',
-    description: 'Criamos trilhas musicais exclusivas com IA + toque humano para marcas, criadores e empresas. Entrega em 24-48h com qualidade profissional.',
-    url: 'https://intotheshadows.com.br',
-    siteName: 'Into the Shadows',
+    title: 'Aureah Music Studio | Trilhas Personalizadas e Biblioteca Musical',
+    description: 'Trilhas sonoras exclusivas, biblioteca musical para criadores e audio branding profissional. Música para vídeos, marcas e conteúdo digital.',
+    url: 'https://aureah.vercel.app',
+    siteName: 'Aureah Music Studio',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Into the Shadows - Trilhas Musicais com IA',
+        alt: 'Aureah Music Studio - Trilhas Musicais Profissionais',
       },
     ],
     locale: 'pt_BR',
@@ -51,9 +47,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Into the Shadows - O som da sua marca começa aqui',
-    description: 'Criamos trilhas musicais exclusivas com IA + toque humano para marcas, criadores e empresas.',
-    images: ['/og-image.jpg'],
+    title: 'Aureah Music Studio | Trilhas Personalizadas e Biblioteca Musical',
+    description: 'Trilhas sonoras exclusivas, biblioteca musical para criadores e audio branding profissional.',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
@@ -65,10 +61,6 @@ export const metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: 'seu-codigo-google-verification',
-    yandex: 'seu-codigo-yandex',
   },
 };
 
